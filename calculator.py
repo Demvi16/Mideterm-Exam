@@ -3,21 +3,32 @@ import math
 a = int(input('Enter value of a: '))
 b = int(input('Enter value of b: '))
 
-#Addition
-def Addition():
-    sum= a + b
-    print (sum)
+# Addition
 
-#Subtraction
+
+def Addition():
+    sum = a + b
+    print(sum)
+
+# Subtraction
     def Subtract():
     result = num1 - num2
-    print (Subtract) 
+    print(Subtract)
 
-#Multiplication
+# Multiplication
+
+
 def multiply():
     result = int
     result = a*b
     print(result)
+
+# Division
+
+
+def divide(a, b):
+    return a/b
+
 
 print("Enter your choice: ")
 print("a. Add")
@@ -35,8 +46,8 @@ elif choice == 'b':
 
 elif choice == 'c':
     Multiply()
-    
-elif choice == 'd':
 
+elif choice == 'd':
+    print("", divide(a, b))
 else:
     print("Invalid choice")
