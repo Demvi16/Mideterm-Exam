@@ -3,20 +3,7 @@ import math
 a = int(input('Enter value of a: '))
 b = int(input('Enter value of b: '))
 
-#Addition
-def Addition():
-    sum= a + b
-    print (sum)
-
-#Subtraction
-    def Subtract():
-    result = num1 - num2
-    print (Subtract) 
-
-#Multiplication
 # Addition
-
-
 def Addition():
     sum = a + b
     print(sum)
@@ -35,8 +22,6 @@ def multiply():
     print(result)
 
 # Division
-
-
 def divide(a, b):
     return a/b
 
